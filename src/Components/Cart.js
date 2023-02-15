@@ -7,7 +7,7 @@ function Cart() {
   const { cartItems, totalAmount, quantity } = useSelector((state) => state.cart);
   return (
     <>
-      <Container>
+      <Container className='cart'>
         <Row>
           <Col lg={8}>
             {cartItems.map((items) => (
