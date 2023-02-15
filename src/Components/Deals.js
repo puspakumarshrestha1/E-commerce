@@ -23,16 +23,17 @@ function Deals() {
                         </Row>
 
                     </Col>
-                    <Col lg={6}>
+                    <Col lg={6} >
                         <Row>
-                            <Col >
-                                <img className='w-100' src='https://m.media-amazon.com/images/I/71N3Vmy5V4L._SX3000_.jpg' alt='' />
+                            <Col className='position-relative'>
+                                <img className='w-100' src='https://angular.pixelstrap.com/multikart/assets/images/collection/fashion/2.jpg' alt='' />
+                          
                             </Col>
                             
                         </Row>
                         <Row className='mt-5'>
                             <Col>
-                                <img className='w-100' src='https://m.media-amazon.com/images/I/61DUO0NqyyL._SX3000_.jpg' alt='' />
+                                <img className='w-100' src='https://angular.pixelstrap.com/multikart/assets/images/collection/fashion/1.jpg' alt='' />
                             </Col>
                         </Row>
 

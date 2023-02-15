@@ -10,6 +10,10 @@ p {
   color: #233D50;
 }
 
+body {
+  background-color: rgb(248, 248, 248) !important;
+}
+
 .btn {
   background-color: rgb(228, 228, 0) !important;
   color: black !important;
@@ -283,6 +287,32 @@ p {
   right: 20%;
 }
 
+.email1 .overflow {
+  overflow: hidden;
+}
+.email1 .overflow img {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.email1 .overflow img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.email1 h5 {
+  top: 30%;
+  z-index: 2;
+  right: 15%;
+  font-size: 28px;
+  font-weight: 800;
+}
+.email1 .text2 {
+  top: 30%;
+  z-index: 2;
+  left: 15%;
+  font-size: 28px;
+  font-weight: 800;
+}
+
 .selling h2 {
   font-weight: 700;
 }
@@ -297,7 +327,9 @@ p {
 }
 
 .signup {
-  background: url(https://wpocean.com/html/tf/themart/assets/images/cta-bg.jpg);
+  background: url(https://new.axilthemes.com/demo/template/etrade/assets/images/bg/bg-image-5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .single img {
@@ -317,4 +349,177 @@ p {
 }
 .top .top-btn a {
   color: yellow;
+}
+
+#products img {
+  width: 100%;
+  display: block;
+}
+#products #products {
+  min-height: 100vh;
+}
+#products .product-wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+#products .product-heading {
+  font-size: 2.2rem;
+  text-align: center;
+  margin: 3rem 0;
+  opacity: 0.9;
+}
+#products .product-item {
+  border-radius: 4px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#products .product-img {
+  overflow: hidden;
+  position: relative;
+}
+#products .product-img-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+#products .product-img-slider img {
+  min-width: 100%;
+}
+#products .product-img:hover .product-img-slider {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+#products .product-img button {
+  position: absolute;
+  left: 0;
+  top: 2rem;
+  border: none;
+  color: #fff;
+  background-color: #ababab;
+  font-family: inherit;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#products .product-img button:hover {
+  background-color: #9e9d9d;
+}
+#products .product-info {
+  text-align: center;
+  padding: 1.5rem 0;
+}
+#products .product-name {
+  color: #ababab;
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 0.6rem;
+}
+#products .product-price {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+#products .product-icons {
+  margin-top: 1.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#products .product-icons span {
+  width: 40px;
+  height: 40px;
+  background-color: #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 0.3rem;
+  border: 1px solid #e2e2e2;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#products .product-icons span:hover {
+  background-color: #9e9d9d;
+  color: #fff;
+}
+#products .product-grid {
+  margin-bottom: 2rem;
+  display: grid;
+  gap: 2rem;
+}
+@media screen and (min-width: 576px) {
+  #products .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 992px) {
+  #products .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.bgatt {
+  background: url(https://angular.pixelstrap.com/multikart/assets/images/parallax/1.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bgatt h1 {
+  color: orangered;
+  font-size: 80px;
+  font-weight: 800;
+}
+.bgatt h3 {
+  font-size: 60px;
+  color: black;
+  letter-spacing: 5px;
+  line-height: 5rem;
+}
+.bgatt h6 {
+  font-size: 40px;
+  color: black !important;
+  letter-spacing: 2px;
+}
+
+.iphone .iphone-text {
+  top: 25%;
+  left: 10%;
+}
+.iphone .iphone-text h5 {
+  font-size: 18px;
+  font-weight: 300;
+  color: black !important;
+}
+.iphone .iphone-text h2 {
+  font-size: 42px;
+  font-weight: 600;
+  color: black !important;
 }/*# sourceMappingURL=style.css.map */

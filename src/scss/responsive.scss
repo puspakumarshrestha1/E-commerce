@@ -20,18 +20,77 @@
   
    visibility: hidden;
    }
+    .iphone-text{
+        h5{
+            font-size: 8px !important;
+            font-weight: 300;
+            color: black !important;
+        }
+        h2{
+            font-size: 22px !important;
+            font-weight: 600;
+            color: black !important;
+        }
+        .btn-ph{
+            display: none;
+        }
+    }
+    .trend-text{
+        .banner-btn1{
+            display: none !important;
+        }
+    }
+
 }
 
 @include sm{
     .sticky{
         visibility: hidden;
-       
+        }
+        .iphone-text{
+            h5{
+                font-size: 12px !important;
+                font-weight: 300;
+                color: black !important;
+            }
+            h2{
+                font-size: 28px !important;
+                font-weight: 600;
+                color: black !important;
+            }
+            .btn-ph{
+                display: none;
+            }
+        }
+        .trend-text{
+            .banner-btn1{
+                display: none !important;
+            }
         }
 }
 
 @include md{
     .sticky{
         visibility: hidden;
-       
+    }
+    .iphone-text{
+        h5{
+            font-size: 16px !important;
+            font-weight: 300;
+            color: black !important;
+        }
+        h2{
+            font-size: 32px !important;
+            font-weight: 600;
+            color: black !important;
+        }
+        .btn-ph{
+            display: none;
+        }
+    }
+    .trend-text{
+        .banner-btn1{
+            display: none !important;
+        }
     }
 }

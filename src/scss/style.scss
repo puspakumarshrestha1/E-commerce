@@ -12,7 +12,9 @@ p {
     color: #233D50;
 }
 
-
+body{
+    background-color: rgb(248, 248, 248) !important;
+}
 
 .btn {
     background-color: rgb(228, 228, 0) !important;
@@ -301,8 +303,10 @@ p {
     h2, h5, p{
         color: #ffffff;
     }
+    
 
 }
+
 }
 
 //Trends.js
@@ -325,6 +329,36 @@ p {
         right: 20%;
       }
     
+}
+
+//email1.js
+.email1{
+    .overflow {
+        overflow: hidden;
+    
+        img {
+          transition: all 0.5s;
+    
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+      h5{
+        top: 30%;
+        z-index: 2;
+        right: 15%;
+        font-size: 28px;
+        font-weight: 800;
+      }
+      .text2{
+        top: 30%;
+        z-index: 2;
+        left: 15%;
+        font-size: 28px;
+        font-weight: 800;
+
+      }
 }
 //selling
 .selling{
@@ -349,8 +383,9 @@ p {
 
 //signup
 .signup{
-    background: url(https://wpocean.com/html/tf/themart/assets/images/cta-bg.jpg);
-
+    background: url(https://new.axilthemes.com/demo/template/etrade/assets/images/bg/bg-image-5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 //single
@@ -376,3 +411,159 @@ p {
       }
   }
   }
+
+  //hover
+  #products{
+    img{
+        width: 100%;
+        display: block;
+    }
+    #products{
+        min-height: 100vh;
+    }
+    .product-wrapper{
+        max-width: 1170px;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    .product-heading{
+        font-size: 2.2rem;
+        text-align: center;
+        margin: 3rem 0;
+        opacity: 0.9;
+    }
+    .product-item{
+        border-radius: 4px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .product-img{
+        overflow: hidden;
+        position: relative;
+    }
+    .product-img-slider{
+        display: flex;
+        transition: transform 0.3s ease-in-out;
+    }
+    .product-img-slider img{
+        min-width: 100%;
+    }
+    .product-img:hover .product-img-slider{
+        transform: translateX(-100%);
+    }
+    .product-img button{
+        position: absolute;
+        left: 0;
+        top: 2rem;
+        border: none;
+        color: #fff;
+        background-color: #ababab;
+        font-family: inherit;
+        font-size: 1rem;
+        text-transform: uppercase;
+        padding: 0.8rem 1rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .product-img button:hover{
+        background-color: #9e9d9d;
+    }
+    .product-info{
+        text-align: center;
+        padding: 1.5rem 0;
+    }
+    .product-name{
+        color: #ababab;
+        font-size: 1.2rem;
+        display: block;
+        margin-bottom: 0.6rem;
+    }
+    .product-price{
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    .product-icons{
+        margin-top: 1.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .product-icons span{
+        width: 40px;
+        height: 40px;
+        background-color: #eee;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 0.3rem;
+        border: 1px solid #e2e2e2;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .product-icons span:hover{
+        background-color: #9e9d9d;
+        color: #fff;
+    }
+    .product-grid{
+        margin-bottom: 2rem;
+        display: grid;
+        gap: 2rem;
+    }
+    
+    @media screen and (min-width: 576px){
+        .product-grid{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    
+    @media screen and (min-width: 992px){
+        .product-grid{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+  }
+
+//bgattach
+.bgatt{
+    background: url(https://angular.pixelstrap.com/multikart/assets/images/parallax/1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    h1{
+        color: orangered;
+        font-size: 80px;
+        font-weight: 800;
+    }
+    h3{
+        font-size: 60px;
+        color: black;
+        letter-spacing: 5px;
+        line-height: 5rem;
+    }
+    h6{
+        font-size: 40px;
+        color: black !important;
+        letter-spacing: 2px;
+    }
+}
+
+//iphone
+.iphone{
+    .iphone-text{
+        top: 25%;
+        left: 10%;
+        h5{
+            font-size: 18px;
+            font-weight: 300;
+            color: black !important;
+        }
+        h2{
+            font-size: 42px;
+            font-weight: 600;
+            color: black !important;
+        }
+    }
+}

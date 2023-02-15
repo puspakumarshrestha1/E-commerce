@@ -5,6 +5,7 @@ function Email() {
   return (
     <>
     <Container className='signup my-3'>
+      
         <Row>
             <Col lg={6} className='py-5 my-5 ms-5'>
               <h3 className='text-light text-start py-4'>Subscribe Our Newsletter & <br/>

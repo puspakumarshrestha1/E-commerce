@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
+import Email1 from './Email1';
 import Trending from './Trending';
 
 function SingleData() {
