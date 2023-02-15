@@ -1,0 +1,320 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #233D50;
+}
+
+.btn {
+  background-color: rgb(228, 228, 0) !important;
+  color: black !important;
+}
+.btn:hover {
+  background-color: black !important;
+  color: yellow !important;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+.form-control {
+  width: 300px !important;
+}
+
+.nav-link {
+  font-size: 16px !important;
+  margin-left: 15px !important;
+}
+.nav-link:hover {
+  color: rgb(180, 180, 5) !important;
+}
+
+.cart-btn {
+  background-color: transparent !important;
+}
+.cart-btn:hover {
+  background: transparent !important;
+}
+
+.sticky {
+  width: 100%;
+  position: fixed !important;
+  z-index: 999;
+  margin-top: -90px;
+}
+
+.banner-1 .banner-text,
+.banner-2 .banner-text {
+  color: #233D50;
+  left: 15%;
+  top: 30%;
+  letter-spacing: 5px;
+}
+.banner-1 .banner-text h4,
+.banner-2 .banner-text h4 {
+  font-weight: 300;
+  letter-spacing: 4px;
+  line-height: 30px;
+}
+.banner-1 .banner-text h2,
+.banner-2 .banner-text h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.feature h2 {
+  font-weight: 700;
+}
+.feature .owl-carousel img {
+  width: 150px;
+}
+
+.offers h2 {
+  font-weight: 700;
+}
+.offers .feat1 {
+  background: url(https://wpocean.com/html/tf/themart/assets/images/offer-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.offers .feat1 h3 {
+  font-size: 34px;
+  font-weight: 600;
+}
+.offers .feat1 p {
+  letter-spacing: 5px;
+}
+.offers .feat2 {
+  background: url(https://wpocean.com/html/tf/themart/assets/images/banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.offers .feat2 h1 {
+  color: aliceblue;
+}
+.offers .feat2 h4 {
+  color: aliceblue;
+}
+
+.products h2 {
+  font-weight: 700;
+}
+
+.card {
+  position: relative;
+}
+.card a {
+  text-decoration: none;
+  color: black;
+}
+.card a:hover {
+  color: rgb(196, 196, 1);
+}
+.card:hover .icons {
+  right: 0px;
+  opacity: 1;
+}
+.card:hover .btn {
+  bottom: 45%;
+  opacity: 1;
+}
+.card .discount {
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  height: 50px;
+  width: 50px;
+  display: block;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+}
+.card .icons {
+  position: absolute;
+  top: 15px;
+  right: -50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 45px;
+  background-color: rgba(201, 201, 201, 0.8);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  opacity: 0;
+}
+.card .icons a {
+  font-size: 20px;
+  color: black;
+  margin: 10px 0px;
+}
+.card .icons a:hover {
+  color: yellow;
+}
+.card .btn {
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 40px;
+  width: 220px;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  color: white !important;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  opacity: 0;
+}
+.card .btn:hover {
+  background-color: rgb(204, 204, 149) !important;
+  color: black !important;
+}
+
+.cardimg {
+  height: 280px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-text2 h6 {
+  top: 10px;
+}
+
+.deals h2 {
+  font-weight: 700;
+}
+.deals .deal1 {
+  background: url(https://wpocean.com/html/tf/themart/assets/images/offer-bg-3.jpg);
+}
+.deals .deal1 .deal1-text {
+  line-height: 30px;
+}
+.deals .deal1 .deal1-text h2 {
+  font-weight: 700;
+  font-size: 42px;
+  color: white !important;
+  margin: 25px 0px;
+}
+.deals .deal1 .deal1-text h5 {
+  color: white !important;
+  font-size: 30px;
+  margin: 25px 0px;
+}
+.deals .deal1 .deal1-text p {
+  color: white !important;
+  font-size: 24px;
+  padding-top: 5px;
+  margin: 25px 0px;
+}
+.deals .deal1 .deal1-text .btn {
+  border: none;
+  font-size: 22px;
+  margin: 15px 0px;
+}
+
+.trending h2 {
+  font-weight: 700;
+}
+
+.limiteddeals {
+  background: url(../image/bg-1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.limiteddeals .timmer {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 0px;
+  letter-spacing: 0.2em;
+  color: rgb(0, 0, 0);
+}
+.limiteddeals .timmer h6, .limiteddeals .timmer p {
+  color: #233D50;
+}
+.limiteddeals .deals p {
+  color: #233D50;
+}
+.limiteddeals .deals span {
+  color: rgb(203, 202, 202);
+}
+.limiteddeals .support h2, .limiteddeals .support h5, .limiteddeals .support p {
+  color: #ffffff;
+}
+
+.trend {
+  position: relative;
+}
+.trend .overflow {
+  overflow: hidden;
+}
+.trend .overflow img {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.trend .overflow img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.trend .trend-text {
+  position: absolute;
+  top: 30%;
+  right: 20%;
+}
+
+.selling h2 {
+  font-weight: 700;
+}
+.selling p:hover, .selling h6:hover {
+  color: rgb(221, 221, 9);
+}
+.selling img {
+  width: 100px;
+}
+.selling .top-rated img {
+  width: 65px;
+}
+
+.signup {
+  background: url(https://wpocean.com/html/tf/themart/assets/images/cta-bg.jpg);
+}
+
+.single img {
+  width: 240px !important;
+}
+
+.top .top-btn {
+  background-color: black !important;
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+  padding: 10px;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  display: none;
+  z-index: 100000;
+}
+.top .top-btn a {
+  color: yellow;
+}/*# sourceMappingURL=style.css.map */

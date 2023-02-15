@@ -1,0 +1,37 @@
+@import "breakpoints";
+
+@include xs{
+    .banner-text{
+        h4{
+            font-size: 12px;
+        }
+        h2{
+            font-size: 20px !important;
+        }
+        .banbtn{
+            display: none;
+        }
+
+    }
+    .dropdown{
+        display: none;
+    }
+   .sticky{
+  
+   visibility: hidden;
+   }
+}
+
+@include sm{
+    .sticky{
+        visibility: hidden;
+       
+        }
+}
+
+@include md{
+    .sticky{
+        visibility: hidden;
+       
+    }
+}

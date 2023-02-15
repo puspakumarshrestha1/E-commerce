@@ -1,0 +1,27 @@
+@media (min-width: 0) and (max-width: 480px) {
+  .banner-text h4 {
+    font-size: 12px;
+  }
+  .banner-text h2 {
+    font-size: 20px !important;
+  }
+  .banner-text .banbtn {
+    display: none;
+  }
+  .dropdown {
+    display: none;
+  }
+  .sticky {
+    visibility: hidden;
+  }
+}
+@media (min-width: 480px) and (max-width: 720px) {
+  .sticky {
+    visibility: hidden;
+  }
+}
+@media (min-width: 720px) and (max-width: 960px) {
+  .sticky {
+    visibility: hidden;
+  }
+}/*# sourceMappingURL=responsive.css.map */
