@@ -12,7 +12,7 @@ function Trends({id,image,price,title}) {
       <Card className='border-0 pt-3' style={{ width: '16rem' }}>
       <Card.Img  variant="top" src={image} className='cardimg position-relative' />
       <Card.Body>
-      <Card.Title><Link to={`/details/${id}`}>{title}</Link></Card.Title>
+      <Card.Title ><Link to={`/details/${id}`}>{title}</Link></Card.Title>
         <Card.Text>
         <span className='discount'>-25%</span>
       <div className='icons'>

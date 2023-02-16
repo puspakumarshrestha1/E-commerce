@@ -2,6 +2,7 @@ import React from 'react'
 import { Button, Col, Container, Form, Row, Table } from 'react-bootstrap'
 import { useSelector, useDispatch } from 'react-redux'
 import CartsItems from './CartsItems';
+import Email from './Email';
 import Trending from './Trending';
 function Cart() {
   const { cartItems, totalAmount, quantity } = useSelector((state) => state.cart);
@@ -104,6 +105,9 @@ function Cart() {
             <Button className='py-2 px-3 my-3 '>Confirm Purchase</Button> */}
           </Col>
         </Row>
+        <Col>
+            <Email/>
+         </Col>
         <Row>
           <Col>
           <Trending/>

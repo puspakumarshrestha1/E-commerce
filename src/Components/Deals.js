@@ -11,7 +11,7 @@ function Deals() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col lg={6} className='deal1'>
+                    <Col  lg={6} className='deal1'>
                         <Row>
                             <Col className=' deal1-text text-end py-5 my-5 me-3'>
                                 <h2>Stylish Pink Court</h2>

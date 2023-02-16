@@ -2,7 +2,9 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
+import Email from './Email';
 import Email1 from './Email1';
+import Iphone from './Iphone';
 import Trending from './Trending';
 
 function SingleData() {
@@ -37,6 +39,11 @@ function SingleData() {
             <Row>
                 <Col>
                 <Trending/>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+             <Email/>
                 </Col>
             </Row>
 

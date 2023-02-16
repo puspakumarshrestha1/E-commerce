@@ -3,15 +3,15 @@ import { Button, Col, Container, Row } from 'react-bootstrap'
 
 function Offers() {
   return (
-    <>
-    <Container className='offers py-5 my-5'>
+    <div >
+    <Container  className='offers py-5 my-5'>
         <Row>
             <Col>
             <h2 className='py-3'>Exciting Offers</h2>
             </Col>
         </Row>
         <Row>
-            <Col lg={6} className='feat1'>
+            <Col  lg={6} className='feat1'>
                 <div className='py-5 my-5 ms-5'>
                 <h3>Stylish Coat</h3>
                 <h4>$150</h4>
@@ -36,7 +36,7 @@ function Offers() {
         </Row>
     </Container>
       
-    </>
+    </div>
   )
 }
 
